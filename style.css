@@ -18,6 +18,11 @@ styledimg {
  body1{
 
  }
+ img {
+margin-left: 10%;
+max-width: 100%;
+ height: auto;
+}
  nav{
    height: 80px;
    background: #FAEBD7;
