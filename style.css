@@ -31,7 +31,7 @@ styledimg {
      border: 5px solid black;
      padding:  0em 1em;
      border-radius: 16px;
-     font-size: 24px;
+     font-size: 20px;
      line-height: 2;
      background-color: white;
 
@@ -51,11 +51,10 @@ font-size: 24px;
 line-height: 2;
 background-color: white;
 }
-from1{
+body2{
 
 }
 
- }
  img {
 margin-left: 50%;
 max-width: 50%;
@@ -91,7 +90,7 @@ max-width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: 
+  color:
   padding: 0rem 2rem;
 
 }
@@ -140,18 +139,4 @@ a:visited{
 }
 a:link{
     color:
-}
-button {
-  background-color: #white;
-border: none;
-border-radius: 50%;
-color: black;
-text-align: center;
-text-decoration: none;
-font-family:  fantasy;
-position:relative;
-width:100px;
-height:50px;
-left:300px;
-top:450px;
 }

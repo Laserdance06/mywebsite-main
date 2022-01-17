@@ -22,6 +22,26 @@ if ($action == 'accueil') {
 } else if ($action == 'contact') {
   include('Contact.html');
 }
+if ($action == 'accueil') {
+  include('Accueil.html');
+} else if ($action == 'Formations') {
+  include('Formations.html');
+}
+if ($action == 'accueil') {
+  include('Accueil.html');
+} else if ($action == 'Expériences professionelles') {
+  include('ExpProfessionel.html');
+}
+if ($action == 'accueil') {
+  include('Accueil.html');
+} else if ($action == 'Competences') {
+  include('Competences.html');
+}
+if ($action == 'accueil') {
+  include('Accueil.html');
+} else if ($action == 'A Propos') {
+  include('A Propos.html');
+}
 
 
 include ('footer.html');
