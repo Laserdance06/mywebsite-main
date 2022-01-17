@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font font-family: inherit;
+
 }
 styledimg {
   background-image: image(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fdigital-network-connection-icon-vector-logo-image152017344&psig=AOvVaw357yOlKY85a_CgKMnv_3J5&ust=1640357039915000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCID_vqmU-vQCFQAAAAAdAAAAABAD);
@@ -15,23 +16,50 @@ styledimg {
      display: flex;
      justify-content: left;
  }
- body1{
-
- }
- img {
-margin-left: 10%;
-max-width: 100%;
- height: auto;
+ body {
+ background-image: url("https://newsroom.cisco.com/documents/10157/1765910/162523/042abe55-f09f-4dc5-8cb2-5b1899e34d2d");
+ background-color: #FFFF;
+ background-repeat: no-repeat;
+ background-size: 1950px;
 }
  nav{
+
    height: 80px;
-   background: #FAEBD7;
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding: 0rem calc((100vw - 1300px) / 2);
+     border: 5px solid black;
+     padding:  0em 1em;
+     border-radius: 16px;
+     font-size: 24px;
+     line-height: 2;
+     background-color: white;
 
  }
+ body1{
+
+       font-size: 50px;
+       font-style: italic;
+       display: grid;
+       justify-content: left;
+
+border: 3px solid black;
+border-style: double;
+padding:  1em 5em;
+border-radius: 16px;
+font-size: 24px;
+line-height: 2;
+background-color: white;
+}
+from1{
+
+}
+
+ }
+ img {
+margin-left: 50%;
+max-width: 50%;
+}
  .logo{
    color: #000;
    font-size: 1.5rem;
@@ -46,10 +74,10 @@ max-width: 100%;
    padding: 0 1.5rem;
  }
  nav a:hover {
-   color: #DEB887;
+   color: #000;
  }
  .hero{
-   background: #3399FF;
+   background: #000;
  }
  .hero-container{
    display: grid;
@@ -63,7 +91,7 @@ max-width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #000;
+  color: 
   padding: 0rem 2rem;
 
 }
@@ -97,34 +125,33 @@ a{
     margin-right: 10px;
     font-style: normal;
     font-size: 25px;
-    font-family: Calibri;
+    font-family:fantasy;
     text-decoration: none;
 }
 
  a:hover{
-     background-color: #FFEBCD;
-     border: thick double #DEB887;
+     background-color: #FFF;
+     border: thick double #000;
 
 
  }
 a:visited{
-    color: #000;
+    color:
 }
 a:link{
-    color: #000;
+    color:
 }
-
-#bouton {
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  border: none;
-  color: #3399FF;
-  background: #000;
-  cursor: pointer;
-  border-radius: 50px;
-
-}
-#bouton:hover{
-  background: #ff32;
-  color: #000;
+button {
+  background-color: #white;
+border: none;
+border-radius: 50%;
+color: black;
+text-align: center;
+text-decoration: none;
+font-family:  fantasy;
+position:relative;
+width:100px;
+height:50px;
+left:300px;
+top:450px;
 }
